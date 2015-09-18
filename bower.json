@@ -1,0 +1,15 @@
+{
+  "name": "Правда_окон",
+  "version": "0.0.1",
+  "authors": [
+    "Dimesmile <Dimesmile@mail.ru>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
