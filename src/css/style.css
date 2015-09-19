@@ -74,6 +74,7 @@ body{
 	width: 960px;
 	margin: 0 auto;
 }
+
 /*/////////////////////////////////////////////*/
 				
 		/*HEADER*/
@@ -93,6 +94,7 @@ body{
 }
 .tel-first, .tel-second{
 	font-size: 16px;
+	font-weight: normal;
 	line-height: 20px;
 	display: inline-block;
 	color: #fff;
@@ -161,6 +163,83 @@ body{
 	padding: 15px 30px;
 	background-color: #e50050;
 	border-radius: 3px;
+}
+
+/*/////////////////////////////////////////////*/
+				
+		/*POPUP*/
+				
+/*/////////////////////////////////////////////*/
+
+.popup{
+	display: none;
+	width:100%;
+    height: 2000px;
+    background-color: rgba(0,0,0,0.5);
+    overflow:hidden;
+    position:fixed;
+    top:0px;
+    z-index: 2;
+}
+.popup-content{
+	position: absolute;
+	top: 100px;
+	left: 450px;
+	width: 500px;
+	height: 400px;
+	background-color: #fff;
+	padding: 30px 50px 50px 50px;
+	box-sizing: border-box;
+}
+.popup-content-title{
+	text-align: center;
+	font-size: 26px;
+	font-family: 'Exo 2', sans-serif;
+	font-weight: 800;
+	margin-top: 0;
+	margin-bottom: 40px;
+	position: relative;
+}
+.form-item{
+	margin-bottom: 20px;
+}
+.form-item-text{
+	display: inline-block;
+	margin-bottom: 10px;
+	margin-top: 0;
+}
+.form-item input{
+	display: inline-block;
+	float: right;
+	outline: none;
+	height: 20px;
+	width: 250px;
+	padding: 10px;
+}
+.submit-btn{
+	font-family:'Arimo', sans-serif;
+	display: block;
+	width: 200px;
+	margin: 40px auto;
+	background-color: #a8d272;
+	border-radius: 5px;
+	outline: none;
+	border: none;
+	color: #fff;
+	padding: 10px 0;
+}
+.close{
+	position: absolute;
+	top: 10px;
+	right: 17px;
+	display: block;
+	cursor: pointer;
+	font-weight: 700;
+	font-size: 20px;
+	color: #ccc;
+}
+.close:hover{
+	color: #e50050;
 }
 
 /*/////////////////////////////////////////////*/

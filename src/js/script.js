@@ -40,3 +40,9 @@ $('#balcony-up').mouseleave(function(){
 	$(this).hide('slide',{direction: 'down'}, 400);
 });
 
+$('.promo-btn').click(function(){
+	$('.popup').css('display','block');
+});
+$('.close').click(function(){
+	$('.popup').css('display','none');
+});
