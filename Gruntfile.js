@@ -49,7 +49,7 @@ module.exports = function(grunt){
 				},
 
 				files: {
-					'www/style.min.css' : ['src/css/style.css']
+					'www/style.min.css' : ['bower_components/normalize-css/normalize.css', 'src/css/style.css']
 				}
 			}
 		},
